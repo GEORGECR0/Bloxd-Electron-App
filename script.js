@@ -5,7 +5,7 @@ let rightClicks = [];
 let CpsHeight = '40px';
  let CpsWidth = '100px';
 const CpsCounter = document.getElementById('cps');
-const cpsUpdateInterval = 100; // ms
+const cpsUpdateInterval = 100;
 
 ipcRenderer.on('click', (_event, button) => {
     const now = Date.now();

@@ -8,7 +8,7 @@ A simple app project.
 ### 1. Clone the repository
 
 ```ruby
-git clone https://github.com/GEORGECR0/Bloxd-Electron-App.git
+git clone https://github.com/GEORGECR0/Bloxd-Electron-App/tree/main.git
 cd Bloxd-Electron-App
 ```
 ### 2. Install Node.js

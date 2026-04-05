@@ -4,7 +4,6 @@ const path = require('path');
 let mainWindow;
 let overlay;
 
-// Example payload object
 let payload = { cps: 0 };
 let cpsClicks = [];
 

@@ -122,3 +122,10 @@ ipcRenderer.on('click', (_event, button) => {
         }, 100);
     }
 });
+
+ipcRenderer.on('ocr', (_event, text) => {
+    const box = document.getElementById('ocr');
+    if (box) {
+        box.innerText = `OCR: ${text}`;
+    }
+});
